@@ -1,0 +1,154 @@
+  body{
+        margin: 0;
+        padding: 0;
+background-color:rgb(178, 218, 32);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: 50%;
+    }
+header{
+    background-color:rgba(0, 0, 0, 0.884);
+    display: flex;
+    justify-content:space-evenly;
+    height: 150px;
+    position:relative;
+}
+
+nav{
+display: flex;
+height: 40px;
+margin-top: 40px;
+}
+nav a{
+    display:flex;
+    color: brown;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: 10px;
+    color: goldenrod;
+    border-bottom: 3px solid gold;
+    border-top:3px solid gold ;
+}
+
+
+
+
+
+
+
+
+.God,h4 {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color: green;
+
+}
+.Zone,h3{
+    color: green;
+}
+.Area,h5 {
+    color: white;
+    background-color: brown;
+}
+#img{
+padding-left: 50px;
+}
+.back{
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 30%;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 300 0 0 560px;
+    
+}
+.back p{
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    
+}
+.back:hover{
+    background-color: brown;
+   
+}
+.fruit{
+    
+    background-color: rgba(255, 255, 255, 0.774);
+    width: 70%;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 30 0 0 250px;
+    
+}
+.fruit h1 {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+.fruit p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+@keyframes moving{
+    from{
+        font-size: 15px;
+        background-color: white;
+    }
+    to{
+ font-size: 17px;
+ background-color: aqua;
+    } 
+}
+@keyframes rowing{
+    from{
+
+    }
+    to{
+        
+    }
+}
+
+
+
+
+
+
+
+#anco{
+    display: none;
+}
+@media screen and (max-width:750px){
+    body{
+        background-size: 80%;
+    }
+    .fruit{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        width: 100%;
+    overflow:4;
+        height: 30%;
+    }
+    nav{
+display: block;
+    }
+    .back{
+        margin:20 0 0 10px;
+        width: 90%;
+    }
+    .icon{
+        display: block;
+    }
+    #anco{
+        display: block;
+    }
+    .nav1{
+        display: none;
+    }
+}
